@@ -78,7 +78,7 @@ public class Logger {
         }
     }
 
-    public static String getPreText() {
+    private static String getPreText() {
         LocalDateTime date = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd | hh:mm:ss a");
         String dt = "[" + date.format(formatter) + "]";
