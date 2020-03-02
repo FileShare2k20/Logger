@@ -14,7 +14,7 @@ import logger.Logger;
 public class DateFormatTester {
     
     public static void main(String args[]){
-        System.out.println(Logger.getPreText());
+        //System.out.println(Logger.getPreText());
     }
     
 }
